@@ -1,0 +1,2 @@
+# gommon
+Common go snippets

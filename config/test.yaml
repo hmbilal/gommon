@@ -1,0 +1,17 @@
+environment: test
+server:
+  host: 127.0.0.1
+  port: 8080
+  api:
+    unix_socket: "/tmp/api.sock"
+database:
+  host: host
+  user: user
+  password: password
+  name: database
+  port: 5432
+  ssl: disable
+  timezone: Europe/Berlin
+  network: tcp
+  charset: utf8mb4
+  migrate: false
